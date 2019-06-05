@@ -1,9 +1,8 @@
 body {
-    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+    background-image: url("../images/background_pattern.png");
     color: #777777;
     margin: 0;
     padding: 0;
-    float: center;
     line-height: 150%;
 
 }
@@ -14,6 +13,7 @@ header {
     width: 960px;
     margin: 0 auto;
     border-bottom: 3px solid #777777;
+    width: 100%;
     
 
 }
@@ -25,7 +25,9 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 50px;
+    padding: 40px;
+    transform: translateX(480px);
+    
 
 }
 
@@ -33,9 +35,10 @@ h1 {
 /*transform property vertically centers nav in header*/
 nav {
     float: right;
-    padding: 30px;
+    padding: ;
     font-size: 20px;
-    transform: translateY(50%);
+    transform: translateY();
+    transform: translateX(-480px);
 
 }
 
