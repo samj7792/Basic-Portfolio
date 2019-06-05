@@ -10,9 +10,9 @@ body {
 header {
     background-color: #ffffff;
     width: 100%;
-    margin: 0 auto;
     border-bottom: 3px solid #777777;
-    position: fixed
+    position: fixed;
+
 
 }
 
@@ -24,17 +24,23 @@ h1 {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 40px;
+    margin: 0;
+
     
 
 }
+
+#yourname {
+    margin-left: 100px;
+}
+
 
 
 /*transform property vertically centers nav in header*/
 nav {
     float: right;
     font-size: 20px;
-    transform: translateY(50%);
-
+    padding-top: 20px;
 }
 
 /*remove underline on links in nav;
@@ -67,10 +73,9 @@ a:hover, a:active{
 }
 
 section {
-    clear: both;
     background-color: #ffffff;
     border: 1px solid #777777;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
