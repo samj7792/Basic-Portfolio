@@ -169,3 +169,7 @@ h3 {
 #projects {
     color: #ffffff;
 }
+
+form {
+    padding: 20px;
+}
