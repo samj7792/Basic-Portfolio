@@ -40,19 +40,16 @@ nav {
 }
 
 /*remove underline on links in nav;
-colors link font same as text*/
-a:link {
+colors link font same as text;
+can be combined with a:visited*/
+a:link, a:visited {
     text-decoration: none;
     color: #777777;
 }
 
-/*colors link font same ast text*/
-a:visited {
-    color: #777777;
-}
 
-/*colors link font blue when hovered*/
-a:hover {
+/*colors link font blue when hovered or clicked*/
+a:hover, a:active{
     color: blue;
 
 }
@@ -119,4 +116,27 @@ hr {
     text-align: center;
     border-top: 8px solid #4aaaa5;
     
+}
+
+
+#proj1{
+    background-image: url(http://lorempixel.com/300/300/);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+}
+
+
+/*needs to be at bottom of articles*/
+h3 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+#projects:link {
+    color: #ffffff;
 }
