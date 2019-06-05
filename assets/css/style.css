@@ -173,3 +173,15 @@ h3 {
 form {
     padding: 20px;
 }
+
+#name {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+}
