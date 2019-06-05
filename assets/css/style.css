@@ -120,7 +120,39 @@ hr {
 
 
 #proj1{
-    background-image: url(http://lorempixel.com/300/300/);
+    background-image: url(http://lorempixel.com/300/300/sports);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+}
+
+#proj2{
+    background-image: url(http://lorempixel.com/300/300/animals);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+}
+
+#proj3{
+    background-image: url(http://lorempixel.com/300/300/abstract);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+}
+
+#proj4{
+    background-image: url(http://lorempixel.com/300/300/food);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+}
+
+#proj5{
+    background-image: url(http://lorempixel.com/300/300/city);
     width: 300px;
     height: 300px;
     float: left;
