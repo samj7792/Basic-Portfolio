@@ -9,9 +9,10 @@ body {
 
 header {
     background-color: #ffffff;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     border-bottom: 3px solid #777777;
+    position: fixed
 
 }
 
@@ -69,6 +70,8 @@ section {
     clear: both;
     background-color: #ffffff;
     border: 1px solid #777777;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 h2 {
@@ -174,14 +177,9 @@ form {
     padding: 20px;
 }
 
-#name {
-    width: 100%;
-}
-
-#email {
-    width: 100%;
-}
-
+#name,
+#email,
 #message {
     width: 100%;
 }
+
