@@ -40,16 +40,16 @@ nav {
     padding-top: 40px;
 }
 
-/*remove underline on links in nav;
-colors link font same as text;
-can be combined with a:visited*/
+/*text-decoration attribute remove underline on links in nav;
+color attribute makes link font same as text;
+combined with a:visited so that visited links are same color as unvisited*/
 a:link, a:visited {
     text-decoration: none;
     color: #777777;
 }
 
 
-/*colors link font blue when hovered or clicked*/
+/*colors link font blue when hovered and/or clicked*/
 a:hover, a:active{
     color: blue;
 
@@ -182,8 +182,8 @@ form {
     padding: 20px;
 }
 
-/*resize: none; prevents the message box from being adjusted by the user,
-border attribute makes borders uniform,
+/*resize: none; prevents the message box from being adjusted by the user;
+border attribute makes borders uniform;
 font attributes make font in input fields uniform;*/
 #name,
 #email,
