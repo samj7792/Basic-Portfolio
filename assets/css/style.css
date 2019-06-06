@@ -182,10 +182,14 @@ form {
     padding: 20px;
 }
 
+/*resize: none; prevents the message box from being adjusted by the user*/
 #name,
 #email,
 #message {
     width: 100%;
+    resize: none;
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
 }
 
 #submit {
