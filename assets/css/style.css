@@ -13,7 +13,12 @@ header {
     border-bottom: 3px solid #777777;
     position: fixed;
 
+}
 
+/*max-width allows container to shrink with padge width*/
+.headcontainer {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 /*location of name in header;
@@ -25,15 +30,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 40px;
     margin: 0;
-
-    
-
 }
-
-#yourname {
-    margin-left: 100px;
-}
-
 
 
 /*transform property vertically centers nav in header*/
@@ -41,7 +38,6 @@ nav {
     float: right;
     font-size: 20px;
     padding-top: 40px;
-    margin-right: 100px;
 }
 
 /*remove underline on links in nav;
@@ -66,9 +62,10 @@ a:hover, a:active{
     clear: both;
 }
 
+/*max-width allows container to shrink with padge width*/
 .container {
     padding: 10px;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 
 }
@@ -89,7 +86,8 @@ h2 {
 
 /*width matches text width*/
 hr {
-    width: 920px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*float property puts it to side of #main-bio*/
@@ -124,7 +122,8 @@ hr {
     
 }
 
-
+/*The following #proj ids represent my portfolio projects;
+The urls will be replaced with relevant images later;*/
 #proj1{
     background-image: url(http://lorempixel.com/300/300/sports);
     width: 300px;
