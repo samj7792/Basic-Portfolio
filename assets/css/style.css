@@ -128,7 +128,7 @@ hr {
 /*The following #proj ids represent my portfolio projects;
 The urls will be replaced with relevant images later;*/
 #proj1{
-    background-image: url(http://lorempixel.com/300/300/sports);
+    background-image: url(../images/psychic.jpg);
     width: 300px;
     height: 300px;
     float: left;
@@ -136,7 +136,7 @@ The urls will be replaced with relevant images later;*/
 }
 
 #proj2{
-    background-image: url(http://lorempixel.com/300/300/animals);
+    background-image: url(../images/gem-collector.jpg);
     width: 300px;
     height: 300px;
     float: left;
