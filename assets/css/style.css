@@ -144,7 +144,7 @@ The urls will be replaced with relevant images later;*/
 }
 
 #proj3{
-    background-image: url(http://lorempixel.com/300/300/abstract);
+    background-image: url(../images/trivia.png);
     width: 300px;
     height: 300px;
     float: left;
