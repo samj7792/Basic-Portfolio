@@ -152,7 +152,7 @@ The urls will be replaced with relevant images later;*/
 }
 
 #proj4{
-    background-image: url(http://lorempixel.com/300/300/food);
+    background-image: url(../images/giftastic.gif);
     width: 300px;
     height: 300px;
     float: left;
